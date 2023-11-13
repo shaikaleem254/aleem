@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.back-grnd{
+    /* margin-left: 40%; */
+    /* margin-top: 12%; */
+    /* border: 1px solid black; */
+    background: rgb(128,32,184);
+    background: linear-gradient(156deg, rgba(128,32,184,1) 9%, rgba(32,126,186,1) 43%, rgba(6,91,123,1) 92%);
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* border: 1px solid black; */
+}
+.box{
+    width: 20%;
+    /* margin: 0 auto; */
+    /* border: 1px solid black; */
+}
+.box>h1{
+    margin-bottom:10%;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.bill>p{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+.back-grnd input{
+    width: 280px;
+    padding: 5px 0;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.tip>p{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.tip-amount>p{
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.total>p{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.tip-amount>input{
+    background-color: rgb(217, 217, 209);
+}
+.total>input{
+    background-color: rgb(217, 217, 209);
+}
+.calculate
+{
+    /* margin-left: 10%; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculate>button{
+    margin: 0 auto;
+    padding: 5px 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
